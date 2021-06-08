@@ -1,0 +1,12 @@
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.deps.json
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\ref\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.pdb
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.csprojAssemblyReference.cache
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.AssemblyInfoInputs.cache
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.AssemblyInfo.cs
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\ref\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.pdb

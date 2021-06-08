@@ -1,0 +1,12 @@
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\bin\Debug\net5.0\Bugeto_Store.Infrastructure.deps.json
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\bin\Debug\net5.0\Bugeto_Store.Infrastructure.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\bin\Debug\net5.0\ref\Bugeto_Store.Infrastructure.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\bin\Debug\net5.0\Bugeto_Store.Infrastructure.pdb
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.csprojAssemblyReference.cache
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.AssemblyInfo.cs
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\ref\Bugeto_Store.Infrastructure.dll
+C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Infrastructure\obj\Debug\net5.0\Bugeto_Store.Infrastructure.pdb
