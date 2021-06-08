@@ -10,3 +10,23 @@ C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\
 C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.dll
 C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\ref\Bugeto_Store.Persistence.dll
 C:\Users\ali\Desktop\Asp.net-core-project\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.pdb
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.deps.json
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.runtimeconfig.json
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.runtimeconfig.dev.json
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\ref\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Persistence.pdb
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Application.dll
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Domain.dll
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Application.pdb
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\bin\Debug\net5.0\Bugeto_Store.Domain.pdb
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.csprojAssemblyReference.cache
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.AssemblyInfoInputs.cache
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.AssemblyInfo.cs
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.csproj.CopyComplete
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\ref\Bugeto_Store.Persistence.dll
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.pdb
+C:\Users\ali\Desktop\New folder (2)\Bugeto_Store\Bugeto_Store.Persistence\obj\Debug\net5.0\Bugeto_Store.Persistence.genruntimeconfig.cache

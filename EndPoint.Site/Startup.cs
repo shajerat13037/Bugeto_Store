@@ -1,6 +1,9 @@
+using Bugeto_Store.Application.Interfaces.Contexts;
+using Bugeto_Store.Persistence.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +26,10 @@ namespace EndPoint.Site
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IDataBaseContext, DataBaseContext>();
+
+            string contectionString = @"Data Source=ALICOM1; Initial Catalog=Bugeto_StoreDb;Integrated Security=True;";
+            services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>(option => option.UseSqlServer(contectionString));
             services.AddControllersWithViews();
         }
 
