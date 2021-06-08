@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj": {}
+    "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj": {
+    "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
         "projectName": "Bugeto_Store.Application",
-        "projectPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",

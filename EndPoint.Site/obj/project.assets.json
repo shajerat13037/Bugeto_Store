@@ -6237,11 +6237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\EndPoint.Site\\EndPoint.Site.csproj",
+      "projectUniqueName": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\EndPoint.Site\\EndPoint.Site.csproj",
       "projectName": "EndPoint.Site",
-      "projectPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\EndPoint.Site\\EndPoint.Site.csproj",
+      "projectPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\EndPoint.Site\\EndPoint.Site.csproj",
       "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\EndPoint.Site\\obj\\",
+      "outputPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\EndPoint.Site\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",

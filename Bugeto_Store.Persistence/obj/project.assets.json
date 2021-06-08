@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Persistence\\Bugeto_Store.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Persistence\\Bugeto_Store.Persistence.csproj",
       "projectName": "Bugeto_Store.Persistence",
-      "projectPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Persistence\\Bugeto_Store.Persistence.csproj",
+      "projectPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Persistence\\Bugeto_Store.Persistence.csproj",
       "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
