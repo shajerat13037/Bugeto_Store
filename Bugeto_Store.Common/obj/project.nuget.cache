@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+73iWeEPyMRXtkrUEpnpiGfxeHtitVkGT18hjP+fSZKnWacquZoQEWbcsI3+vRsIf816SMiX5B1H0nzQFfyN/Q==",
+  "dgSpecHash": "1w6EvAphmsThs2/qv6gYTLVQrbTkiHsGXv3sf8KbXebpT4ocD63WJYPziXNV3pg5wcJ30ygQv353XRKcO7Jrfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Common\\Bugeto_Store.Common.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Common\\Bugeto_Store.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

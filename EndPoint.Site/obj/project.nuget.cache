@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E8+kpZtQ/PBGu/B04T96LTlISnX+POWkLa9L33Lp46/zq07LCtPbp/rwqGKqfxIpBitsHD5IoHMZLQCLmyPrrw==",
+  "dgSpecHash": "r97MuRqSIerhtGNGiS95xuX/winaT8F3W4cvtJ7APvfZ1F39CAUJWTUQrdbtfMCQj79eOvq86E72Zpjr3uhdcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\EndPoint.Site\\EndPoint.Site.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\EndPoint.Site\\EndPoint.Site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

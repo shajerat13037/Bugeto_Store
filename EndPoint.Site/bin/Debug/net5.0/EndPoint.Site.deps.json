@@ -1804,6 +1804,7 @@
       },
       "Bugeto_Store.Application/1.0.0": {
         "dependencies": {
+          "Bugeto_Store.Common": "1.0.0",
           "Bugeto_Store.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.6"
         },
@@ -1812,6 +1813,14 @@
         },
         "compile": {
           "Bugeto_Store.Application.dll": {}
+        }
+      },
+      "Bugeto_Store.Common/1.0.0": {
+        "runtime": {
+          "Bugeto_Store.Common.dll": {}
+        },
+        "compile": {
+          "Bugeto_Store.Common.dll": {}
         }
       },
       "Bugeto_Store.Domain/1.0.0": {
@@ -4393,6 +4402,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Bugeto_Store.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bugeto_Store.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

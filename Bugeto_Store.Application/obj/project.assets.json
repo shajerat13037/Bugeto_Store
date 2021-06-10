@@ -161,6 +161,16 @@
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "Bugeto_Store.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Bugeto_Store.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bugeto_Store.Common.dll": {}
+        }
+      },
       "Bugeto_Store.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -530,6 +540,11 @@
         "version.txt"
       ]
     },
+    "Bugeto_Store.Common/1.0.0": {
+      "type": "project",
+      "path": "../Bugeto_Store.Common/Bugeto_Store.Common.csproj",
+      "msbuildProject": "../Bugeto_Store.Common/Bugeto_Store.Common.csproj"
+    },
     "Bugeto_Store.Domain/1.0.0": {
       "type": "project",
       "path": "../Bugeto_Store.Domain/Bugeto_Store.Domain.csproj",
@@ -538,6 +553,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Bugeto_Store.Common >= 1.0.0",
       "Bugeto_Store.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.6"
     ]
@@ -548,11 +564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
+      "projectUniqueName": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
       "projectName": "Bugeto_Store.Application",
-      "projectPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
+      "projectPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\Bugeto_Store.Application.csproj",
       "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Application\\obj\\",
+      "outputPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -569,8 +585,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Domain\\Bugeto_Store.Domain.csproj": {
-              "projectPath": "C:\\Users\\ali\\Desktop\\New folder (2)\\Bugeto_Store\\Bugeto_Store.Domain\\Bugeto_Store.Domain.csproj"
+            "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Common\\Bugeto_Store.Common.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Common\\Bugeto_Store.Common.csproj"
+            },
+            "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Domain\\Bugeto_Store.Domain.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\Asp.net-core-project\\Bugeto_Store\\Bugeto_Store.Domain\\Bugeto_Store.Domain.csproj"
             }
           }
         }

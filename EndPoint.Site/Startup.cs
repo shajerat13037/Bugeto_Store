@@ -1,4 +1,6 @@
 using Bugeto_Store.Application.Interfaces.Contexts;
+using Bugeto_Store.Application.Services.Users.Queries.GetRoles;
+using Bugeto_Store.Application.Services.Users.Queries.GetUsers;
 using Bugeto_Store.Persistence.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +29,8 @@ namespace EndPoint.Site
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IDataBaseContext, DataBaseContext>();
+            services.AddScoped<IGetUsersService, GetUsersService>();
+            services.AddScoped<IGetRolesService, GetRolesService>();
 
             string contectionString = @"Data Source=ALICOM1; Initial Catalog=Bugeto_StoreDb;Integrated Security=True;";
             services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>(option => option.UseSqlServer(contectionString));
