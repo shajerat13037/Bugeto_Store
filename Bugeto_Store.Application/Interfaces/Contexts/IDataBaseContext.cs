@@ -1,4 +1,5 @@
-﻿using Bugeto_Store.Domain.Entities.Users;
+﻿using Bugeto_Store.Domain.Entities.Products;
+using Bugeto_Store.Domain.Entities.Users;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace Bugeto_Store.Application.Interfaces.Contexts
         DbSet<User> Users { get; set; }
         DbSet<Role> Roles { get; set; }
         DbSet<UserInRole> UserInRoles { get; set; }
+        DbSet<Category> Categories { get; set; }
+
 
         int SaveChanges(bool acceptAllChangesOnSuccess);
         int SaveChanges();

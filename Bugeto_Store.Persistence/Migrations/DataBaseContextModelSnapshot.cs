@@ -19,6 +19,38 @@ namespace Bugeto_Store.Persistence.Migrations
                 .HasAnnotation("ProductVersion", "5.0.6")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Bugeto_Store.Domain.Entities.Products.Category", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("InsertTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long?>("ParentCategoryId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentCategoryId");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("Bugeto_Store.Domain.Entities.Users.Role", b =>
                 {
                     b.Property<long>("Id")
@@ -49,21 +81,21 @@ namespace Bugeto_Store.Persistence.Migrations
                         new
                         {
                             Id = 1L,
-                            InsertTime = new DateTime(2021, 6, 11, 12, 23, 5, 586, DateTimeKind.Local).AddTicks(5265),
+                            InsertTime = new DateTime(2021, 6, 11, 13, 57, 41, 915, DateTimeKind.Local).AddTicks(1573),
                             IsRemoved = false,
                             Name = "Admin"
                         },
                         new
                         {
                             Id = 2L,
-                            InsertTime = new DateTime(2021, 6, 11, 12, 23, 5, 597, DateTimeKind.Local).AddTicks(2510),
+                            InsertTime = new DateTime(2021, 6, 11, 13, 57, 41, 923, DateTimeKind.Local).AddTicks(7573),
                             IsRemoved = false,
                             Name = "Operator"
                         },
                         new
                         {
                             Id = 3L,
-                            InsertTime = new DateTime(2021, 6, 11, 12, 23, 5, 597, DateTimeKind.Local).AddTicks(2815),
+                            InsertTime = new DateTime(2021, 6, 11, 13, 57, 41, 923, DateTimeKind.Local).AddTicks(7830),
                             IsRemoved = false,
                             Name = "Customer"
                         });
@@ -143,6 +175,15 @@ namespace Bugeto_Store.Persistence.Migrations
                     b.ToTable("UserInRoles");
                 });
 
+            modelBuilder.Entity("Bugeto_Store.Domain.Entities.Products.Category", b =>
+                {
+                    b.HasOne("Bugeto_Store.Domain.Entities.Products.Category", "ParentCategory")
+                        .WithMany("SubCategories")
+                        .HasForeignKey("ParentCategoryId");
+
+                    b.Navigation("ParentCategory");
+                });
+
             modelBuilder.Entity("Bugeto_Store.Domain.Entities.Users.UserInRole", b =>
                 {
                     b.HasOne("Bugeto_Store.Domain.Entities.Users.Role", "Role")
@@ -160,6 +201,11 @@ namespace Bugeto_Store.Persistence.Migrations
                     b.Navigation("Role");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Bugeto_Store.Domain.Entities.Products.Category", b =>
+                {
+                    b.Navigation("SubCategories");
                 });
 
             modelBuilder.Entity("Bugeto_Store.Domain.Entities.Users.Role", b =>
