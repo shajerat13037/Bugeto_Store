@@ -13,7 +13,9 @@ namespace Bugeto_Store.Application.Services.Users.Queries.GetUsers
         {
             _context = context;
         }
-        public ResultGetUserDto Execute(RequestGetUserDto request)
+
+
+        public ReslutGetUserDto Execute(RequestGetUserDto request)
         {
             var users = _context.Users.AsQueryable();
             if (!string.IsNullOrWhiteSpace(request.SearchKey))
@@ -21,19 +23,19 @@ namespace Bugeto_Store.Application.Services.Users.Queries.GetUsers
                 users = users.Where(p => p.FullName.Contains(request.SearchKey) && p.Email.Contains(request.SearchKey));
             }
             int rowsCount = 0;
-            var usersList= users.ToPaged(request.Page, 20, out rowsCount).Select(p => new GetUsersDto
+            var usersList = users.ToPaged(request.Page, 20, out rowsCount).Select(p => new GetUsersDto
             {
                 Email = p.Email,
-                FullName =p.FullName,
+                FullName = p.FullName,
                 Id = p.Id,
+                IsActive = p.IsActive
             }).ToList();
 
-            return new ResultGetUserDto
+            return new ReslutGetUserDto
             {
                 Rows = rowsCount,
                 Users = usersList,
             };
-
         }
     }
 }

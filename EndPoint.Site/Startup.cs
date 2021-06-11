@@ -1,4 +1,9 @@
 using Bugeto_Store.Application.Interfaces.Contexts;
+using Bugeto_Store.Application.Services.Users.Commands.EditUser;
+using Bugeto_Store.Application.Services.Users.Commands.RemoveUser;
+using Bugeto_Store.Application.Services.Users.Commands.RgegisterUser;
+using Bugeto_Store.Application.Services.Users.Commands.UserLogin;
+using Bugeto_Store.Application.Services.Users.Commands.UserSatusChange;
 using Bugeto_Store.Application.Services.Users.Queries.GetRoles;
 using Bugeto_Store.Application.Services.Users.Queries.GetUsers;
 using Bugeto_Store.Persistence.Contexts;
@@ -31,6 +36,12 @@ namespace EndPoint.Site
             services.AddScoped<IDataBaseContext, DataBaseContext>();
             services.AddScoped<IGetUsersService, GetUsersService>();
             services.AddScoped<IGetRolesService, GetRolesService>();
+            services.AddScoped<IRegisterUserService, RegisterUserService>();
+            services.AddScoped<IRemoveUserService, RemoveUserService>();
+            services.AddScoped<IUserLoginService, UserLoginService>();
+            services.AddScoped<IUserSatusChangeService, UserSatusChangeService>();
+            services.AddScoped<IEditUserService, EditUserService>();
+
 
             string contectionString = @"Data Source=ALICOM1; Initial Catalog=Bugeto_StoreDb;Integrated Security=True;";
             services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>(option => option.UseSqlServer(contectionString));

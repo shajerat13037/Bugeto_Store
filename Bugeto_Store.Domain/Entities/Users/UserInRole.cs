@@ -1,6 +1,8 @@
-﻿namespace Bugeto_Store.Domain.Entities.Users
+﻿using Bugeto_Store.Domain.Entities.Commons;
+
+namespace Bugeto_Store.Domain.Entities.Users
 {
-    public class UserInRole
+    public class UserInRole : BaseEntity
     {
         public long Id { get; set; }
         public virtual User User { get; set; }
@@ -8,8 +10,5 @@
 
         public virtual Role Role { get; set; }
         public long RoleId { get; set; }
-
-
     }
 }
-

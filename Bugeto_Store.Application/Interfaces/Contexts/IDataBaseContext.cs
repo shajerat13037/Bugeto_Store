@@ -11,9 +11,9 @@ namespace Bugeto_Store.Application.Interfaces.Contexts
 {
     public interface IDataBaseContext
     {
-         DbSet<User> Users { get; set; }
-         DbSet<Role> Roles { get; set; }
-         DbSet<UserInRole> Userin { get; set; }
+        DbSet<User> Users { get; set; }
+        DbSet<Role> Roles { get; set; }
+        DbSet<UserInRole> UserInRoles { get; set; }
 
         int SaveChanges(bool acceptAllChangesOnSuccess);
         int SaveChanges();
